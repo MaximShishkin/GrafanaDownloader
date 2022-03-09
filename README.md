@@ -1,4 +1,4 @@
-#GrafanaDownloader
+# GrafanaDownloader
 
 Download rendered panels from Grafana for given time interval
 
