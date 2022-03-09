@@ -8,7 +8,7 @@ Java 11 with Grafana Image Render Plugins
 
 java -jar GrafanaDownloader.jar -start 2020-02-20T20:00 -finish 2020-02-20T23:00 -config /user/config.txt -out /user/photo/
 
-###Arguments
+### Arguments
 
 **-start** Start of time interval
 
@@ -18,7 +18,7 @@ java -jar GrafanaDownloader.jar -start 2020-02-20T20:00 -finish 2020-02-20T23:00
 
 **-out** Subfolder name for downloaded images
 
-###Config example
+### Config example
 ```
 #Connection props
 grafana.host=https://adminnt.sberchat.sberbank.ru
