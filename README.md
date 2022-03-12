@@ -2,14 +2,17 @@
 
 Download rendered panels from Grafana for given time interval
 
-Java 11 with Grafana Image Render Plugins
+Java 15 with Grafana Image Render Plugins and Maven builder
+
+Ant builder: https://github.com/suhoy/GrafanaDownloader
 
 ### Start example
-
+```
 java -jar GrafanaDownloader.jar -start 2020-02-20T20:00 -finish 2020-02-20T23:00 -config /user/config.txt -out /user/photo/
+```
 
 ### Arguments
-
+```
 **-start** Start of time interval
 
 **-finish** End of time interval
@@ -17,6 +20,7 @@ java -jar GrafanaDownloader.jar -start 2020-02-20T20:00 -finish 2020-02-20T23:00
 **-config** Path to config file
 
 **-out** Subfolder name for downloaded images
+```
 
 ### Config example
 ```

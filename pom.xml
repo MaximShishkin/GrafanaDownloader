@@ -22,7 +22,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>ru.mycompany.shishkin.GrafanaDownloader</mainClass>
+                            <mainClass>ru.shishkin.grafanaDownloader.GrafanaDownloader</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

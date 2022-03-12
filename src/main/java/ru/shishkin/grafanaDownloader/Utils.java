@@ -1,4 +1,4 @@
-package ru.mycompany.shishkin;
+package ru.shishkin.grafanaDownloader;
 
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
@@ -20,7 +20,7 @@ public class Utils {
         return String.valueOf(cal.getTimeInMillis());
     }
 
-    public static String urlBuilder(String host, String dashboardName,String timeFrom, String timeTo, String width,
+    public static String urlBuilder(String host, String dashboardName, String timeFrom, String timeTo, String width,
                                     String height) {
         return "" + host + "" + dashboardName + "" + "&from=" + timeFrom + "&to=" + timeTo + "&width=" + width
                 + "&height=" + height + "";

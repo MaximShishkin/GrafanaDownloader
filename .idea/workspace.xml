@@ -17,7 +17,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../InfluxExporter" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -30,7 +30,7 @@
   </component>
   <component name="RunManager">
     <configuration name="GrafanaDownloader" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mycompany.shishkin.GrafanaDownloader" />
+      <option name="MAIN_CLASS_NAME" value="ru.shishkin.grafanaDownloader.GrafanaDownloader" />
       <module name="GrafanaDownloader" />
       <option name="PROGRAM_PARAMETERS" value="-start 2021-09-27T17:13 -finish 2021-09-27T17:35 -config $PROJECT_DIR$/../../test/config.txt -out $PROJECT_DIR$/../../200u/" />
       <method v="2">

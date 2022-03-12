@@ -1,4 +1,4 @@
-package ru.mycompany.shishkin;
+package ru.shishkin.grafanaDownloader;
 
 import java.io.File;
 import javax.imageio.ImageIO;

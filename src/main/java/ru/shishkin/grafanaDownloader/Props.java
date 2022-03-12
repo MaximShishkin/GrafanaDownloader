@@ -1,4 +1,4 @@
-package ru.mycompany.shishkin;
+package ru.shishkin.grafanaDownloader;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -17,8 +17,8 @@ public class Props {
     public Map<String, String> params = new TreeMap<>();
     public ArrayList<Map<String, String>> metrics = new ArrayList<>();
 
-    public Props(String config,String out) {
-        this.outFolder=out;
+    public Props(String config, String out) {
+        this.outFolder = out;
         try {
             InputStream input = new FileInputStream(config);
             prop = new Properties();
